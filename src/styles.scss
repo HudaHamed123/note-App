@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'ngx-toastr/toastr';
+.btn-main{
+    @apply  bg-sky-600 rounded text-white py-2 px-6 hover:bg-sky-800 transition-colors duration-500 disabled:cursor-not-allowed disabled:bg-gray-500;
+}
+// :host{
+//     height: 100vh;
+//     background-image: url('/images/WhatsApp Image 2025-03-17 at 02.10.05_f6108513.jpg');
+//     background-position: center;
+//     background-size: cover;
+    
+// }
